@@ -16,7 +16,7 @@ stdenv.mkDerivation rec {
     owner = "jellyfin";
     repo = "jellyfin-web";
     rev = "v${version}";
-    sha256 = "RDp51IWQ0Woz26cVgWsiLc8DyZztI2ysPbhmOR3jguE=";
+    sha256 = "1jgn7ww33kz36n4m3333vyz9s5k7k1b3q3ks198b0hsw0q4sxx45";
     postFetch = ''
       mkdir -p $out
       cd $out

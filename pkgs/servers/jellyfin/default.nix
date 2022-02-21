@@ -45,7 +45,7 @@ stdenv.mkDerivation rec {
     owner = "jellyfin";
     repo = "jellyfin";
     rev = "v${version}";
-    sha256 = "mByGsz9+R8I5/f6hUoM9JK/MDcWIJ/Xt51Z/LRXeQQQ=";
+    sha256 = "1jd6a5s5bmlxi9f8siwigrj6qrs4zi7c45sqrxj1xjy0fki0jfk2";
   };
 
   nativeBuildInputs = [
