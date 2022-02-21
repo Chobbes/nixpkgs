@@ -39,7 +39,7 @@ let
 in
 stdenv.mkDerivation rec {
   pname = "jellyfin";
-  version = "10.7.7"; # ensure that jellyfin-web has matching version
+  version = "10.8.0-alpha5"; # ensure that jellyfin-web has matching version
 
   src = fetchFromGitHub {
     owner = "jellyfin";
